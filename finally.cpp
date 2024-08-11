@@ -274,41 +274,7 @@ int lengthofplaylist(){
 
 int main(){
 
-    srand(static_cast<unsigned int>(time(0))); // Seed the random number generator
-
-
     
-    playlistmanager playlist1;
-    playlist1.addsong("aaha tamatar");
-    playlist1.addsong("bade mazedaar");
-
-    cout<<"Printing the first playlist: "<< endl;
-    playlist1.printplaylist();
-
-    playlistmanager playlist2;
-    playlist2.addsong("ooho tamatar");
-    playlist2.addsong("bade mazedaar");
-
-    cout<<"Printing the second playlist: "<< endl;
-    playlist2.printplaylist();
-    playlist1.loopsong("bade mazedaar",3);
 } 
 
-    /*playlistmanager playlist3;
-    playlist3.addsong("song 1");
-    playlist3.addsong("song 2");
-    playlist3.addsong("song 3");
-    playlist3.addsong("song 4");
-    playlist3.addsong("song 5");
-    playlist3.addsong("song 6");
-
-    //playlist3.printplaylist();
-    
-
-  //playlist3.deletesong (13);
-  // playlist3.printplaylist();
-
-    //cout<<"now shuffling"<<endl;
-    //playlist3.shuffle();
-*/
 
